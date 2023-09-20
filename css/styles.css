@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.campo-relogio {
+    text-align: center;
+}
+
+ span.digitos, .separador {
+    color: #fff;
+    font-size: 65px;
+}
+
+.botoes {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button.btn{
+    margin: 2px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn_iniciar {
+    background-color: green;
+}
+
+#btn_pausar {
+    background-color: blue;
+}
+
+#btn_zerar {
+    background-color: red;
+}
+
+#btn_continuar {
+    background-color: green;
+}
+
+#btn_pausar,
+#btn_zerar,
+#btn_continuar {
+    display: none;
+}
